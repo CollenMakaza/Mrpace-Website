@@ -1,0 +1,22 @@
+Put the Mr Pace logo and club photos in this folder using these names:
+
+  logo.png        <- the Mr Pace logo (PNG with transparent background is best)
+  hero-1.jpg      <- big photos for the home page slideshow
+  hero-2.jpg
+  hero-3.jpg
+  about.jpg       <- photo for the "About the club" section
+  club-1.jpg      <- extra photos used around the site
+  club-2.jpg
+  club-3.jpg
+  club-4.jpg
+  auth.jpg        <- photo shown next to the login / sign up forms
+  cta.jpg         <- background for the "Join Mr Pace" banner
+
+You can use different file names or add more photos: just edit
+frontend/src/site.js and change the names in the IMAGES list.
+
+If a picture is missing, the site shows a red/black placeholder instead,
+so nothing breaks.
+
+Photos for each race's gallery are uploaded by the admin from the admin
+website - they don't go in this folder.

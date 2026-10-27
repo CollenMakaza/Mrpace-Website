@@ -1,0 +1,23 @@
+# Dependencies and builds
+node_modules/
+dist/
+
+# Secrets - copy backend/.env.example to backend/.env instead
+.env
+
+# Original photo folders (too large for git; used once by backend/scripts/import-gallery.js)
+/pics/
+/pics2/
+/pic3/
+/pics4/
+/pic5/
+
+# Runtime data created by the backend
+backend/data/
+backend/uploads/
+backend/outbox/
+
+# OS / editor clutter
+Thumbs.db
+.DS_Store
+*.log

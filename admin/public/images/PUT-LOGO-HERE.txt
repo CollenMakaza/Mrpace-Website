@@ -1,0 +1,2 @@
+Copy the Mr Pace logo into this folder as:  logo.png
+(the same file you put in frontend/public/images/logo.png)
